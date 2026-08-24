@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessible Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initializeGallery()">
+
+  <h1>My Accessible Photo Gallery</h1>
+  
+  <div id="image">
+    Hover over or tab to an image below to display here.
+  </div>
+
+  <div class="gallery">
+    <img class="preview" alt="Majestic Yosemite Valley with towering cliffs and a winding river" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Snowy mountain peaks glowing under a starry night sky" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&auto=format&fit=crop&q=80" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Misty sunrise over rolling green hills and pine forests" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&auto=format&fit=crop&q=80" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Morning sunbeams shining through the canopy of a lush forest" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&auto=format&fit=crop&q=80" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Tropical white sand beach surrounded by crystal clear turquoise ocean" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Dramatic rugged mountain peaks bathed in warm golden sunset light" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&auto=format&fit=crop&q=80" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
